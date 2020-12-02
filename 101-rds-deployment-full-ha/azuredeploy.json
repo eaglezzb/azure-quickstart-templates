@@ -106,7 +106,7 @@
         },
         "vmSpot": {
             "type": "bool",
-            "defaultValue": true,
+            "defaultValue": false,
             "metadata": {
                 "description": "Create Azure Spot VMs?"
             }
