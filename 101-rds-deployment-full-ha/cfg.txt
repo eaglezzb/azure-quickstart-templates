@@ -1,0 +1,10 @@
+https://github.com/eaglezzb/azure-quickstart-templates/tree/master/101-rds-deployment-full-ha
+
+{
+    "status": "Failed",
+    "error": {
+        "code": "InvalidParameter",
+        "target": "billingProfile",
+        "message": "只能在 Azure 现成虚拟机上设置逐出策略。有关详细信息，请参阅 http://aka.ms/AzureSpot/errormessages。"
+    }
+}
