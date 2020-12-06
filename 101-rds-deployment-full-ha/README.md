@@ -1,5 +1,6 @@
 # Remote Desktop Services 2019 with High Availability
 
+https://139.217.64.134/RDWeb
 ![Azure Public Test Date](https://azurequickstartsservice.blob.core.windows.net/badges/101-rds-deployment-full-ha/PublicLastTestDate.svg)
 ![Azure Public Test Result](https://azurequickstartsservice.blob.core.windows.net/badges/101-rds-deployment-full-ha/PublicDeployment.svg)
 
@@ -40,6 +41,7 @@ To be able to request certificates and have a highly available environment, do t
 
         "remoteapps.contosocorp.com" CNAME "rdslbpip.eastus.cloudapp.azure.com"
         "broker.contosocorp.com"     CNAME "rdslbpip.eastus.cloudapp.azure.com"
+        rdslbpip.chinanorth2.cloudapp.chinacloudapi.cn
 
     This is required by letsencrypt's validation process, which will connect via HTTP to your websites.
 
